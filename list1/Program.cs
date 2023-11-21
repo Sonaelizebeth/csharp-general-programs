@@ -1,0 +1,17 @@
+﻿List<int> numbers = new List<int>();
+numbers.Add(1);
+numbers.Add(30);
+numbers.Add(40);
+Console.WriteLine(numbers.Count());
+List<int> numbers2 = new List<int>();
+numbers2.Add(40);
+numbers2.Add(90);
+numbers2.Add(44);
+numbers.AddRange(numbers2);
+Console.WriteLine(numbers2.Count());
+Console.WriteLine(numbers.Count());
+Console.WriteLine(numbers.ElementAt(5));
+List<String> abc = new List<String>();
+abc.Add("a");
+abc.Add("b");
+Console.WriteLine(abc.ElementAt(1));
